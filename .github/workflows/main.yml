@@ -6,7 +6,7 @@ on:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
-    timeout-minutes: 110  # Allow 110 minutes (from 9:20 AM to 11:10 AM IST)
+    timeout-minutes: 1200  # Allow 110 minutes (from 9:20 AM to 11:10 AM IST)
 
     steps:
       - name: Checkout repo
