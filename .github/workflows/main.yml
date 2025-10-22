@@ -33,4 +33,4 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          timeout 6600s python pro444.py  # 110 minutes = 6600 seconds
+          timeout 7200s python pro444.py  # 110 minutes = 6600 seconds
